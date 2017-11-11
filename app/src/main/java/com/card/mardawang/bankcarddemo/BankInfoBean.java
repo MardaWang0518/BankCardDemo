@@ -784,7 +784,7 @@ public class BankInfoBean {
                 || Pattern.matches(s269, totalBankcode) || Pattern.matches(s272, totalBankcode) || Pattern.matches(s274, totalBankcode) || Pattern.matches(s276, totalBankcode) || Pattern.matches(s278, totalBankcode) || Pattern.matches(s281, totalBankcode)
                 || Pattern.matches(s283, totalBankcode) || Pattern.matches(s297, totalBankcode) || Pattern.matches(s301, totalBankcode) || Pattern.matches(s303, totalBankcode) || Pattern.matches(s306, totalBankcode)
                 || Pattern.matches(s313, totalBankcode)) {
-            return "信用卡";
+            return "信用卡(贷记卡)";
         } else if (Pattern.matches(s11, totalBankcode) || Pattern.matches(s18, totalBankcode) || Pattern.matches(s22, totalBankcode) || Pattern.matches(s23, totalBankcode) || Pattern.matches(s32, totalBankcode) || Pattern.matches(s33, totalBankcode)
                 || Pattern.matches(s39, totalBankcode) || Pattern.matches(s76, totalBankcode) || Pattern.matches(s196, totalBankcode) || Pattern.matches(s213, totalBankcode) || Pattern.matches(s215, totalBankcode)
                 || Pattern.matches(s227, totalBankcode)) {

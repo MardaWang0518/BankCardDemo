@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.regex.Pattern;
+
 //根据银行卡号获取银行及银行卡类型
 public class MainActivity extends AppCompatActivity {
 
@@ -36,15 +38,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 cardnum = et_cardnum.getText().toString().trim();
-                if (cardnum != null) {
+                if (cardnum!=null && Pattern.matches(cardnum,"pattern = /^([1-9]{1})(\\d{14}|\\d{18})$/")) {
                     bankinfobean = new BankInfoBean(cardnum);
                     tv_bankname.setText(bankinfobean.getBankName());
                     tv_cardtype.setText(bankinfobean.getCardType());
                 } else {
-                    Toast.makeText(MainActivity.this, "请输入卡号", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "请输入正确银行卡号", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
     }
+
 }
