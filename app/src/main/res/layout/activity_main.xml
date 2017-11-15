@@ -13,11 +13,11 @@
         >
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:text="银行卡号 "
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:id="@+id/textView" />
 
 
@@ -26,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@null"
+            android:textColor="#333333"
             android:gravity="center_vertical"
             android:hint="请输入银行卡号"
             android:inputType="number"
@@ -46,11 +47,11 @@
         >
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:text="开户行 "
-            android:textSize="16sp" />
+            android:textSize="14sp" />
 
 
         <TextView
@@ -58,6 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
+            android:textColor="#333333"
             android:paddingLeft="10dp"
             android:textSize="16sp" />
 
@@ -75,17 +77,18 @@
         >
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="80dp"
             android:layout_height="40dp"
             android:gravity="center_vertical"
             android:text="银行卡类型"
-            android:textSize="16sp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/tv_cardtype"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
+            android:textColor="#333333"
             android:paddingLeft="10dp"
             android:textSize="16sp" />
 
