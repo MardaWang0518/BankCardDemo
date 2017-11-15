@@ -48,40 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /**
-     * luhm校验
-     * 从卡号最后一位数字开始，逆向将奇数位相加
-     * 从卡号最后一位数字开始，逆向将偶数位数字，先乘以2（如果乘积为两位数，则将其减去9），再求和
-     * 奇偶相加为10的倍数表示通过
-     */
-    private boolean validateluhm(String bankCode){
-        //验证
-        if(!bankCode.matches("^\\d{16,19}$")){
-            throw new IllegalArgumentException("bankCode must be 16-19 number,bankCode is : "+bankCode);
-        }
-        //倒转
-        String reverseCode = new StringBuffer(bankCode).reverse().toString();
-        char[] array = reverseCode.toCharArray();
-        int sumOdd = 0;
-        int sumEven = 0;
-        for(int i = 0;i<reverseCode.length();i++){
-            int num = Integer.parseInt(String.valueOf(array[i]));
-            if(i % 2 == 0){ //奇数位
-                sumEven += num;
-            }else{ //偶数位
-                num = num * 2;
-                if(num > 9){
-                    num = num - 9;
-                }
-                sumOdd += num;
-            }
-        }
-        if((sumOdd + sumEven) % 10 == 0){
-            return true;
-        }
-        return false;
-    }
-
     /**校验过程：
         1、从卡号最后一位数字开始，逆向将奇数位(1、3、5等等)相加。
         2、从卡号最后一位数字开始，逆向将偶数位数字，先乘以2（如果乘积为两位数，将个位十位数字相加，即将其减去9），再求和。
@@ -100,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 从不含校验位的银行卡卡号采用 Luhm 校验算法获得校验位
+     * 从不含校验位的银行卡卡号采用 Luhn 校验算法获得校验位
      * @param nonCheckCodeBankCard
      * @return
      */

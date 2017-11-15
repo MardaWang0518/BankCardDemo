@@ -2,7 +2,7 @@
 <resources>
     <color name="divide_color">#999999</color>
     <color name="colorPrimary">#3795FF</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#e83795FF</color>
     <color name="colorAccent">#FF4081</color>
     <color name="blue">#3795FF</color>
 </resources>
