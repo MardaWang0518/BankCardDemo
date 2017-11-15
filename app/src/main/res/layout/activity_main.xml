@@ -17,19 +17,20 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:text="银行卡号 "
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            android:id="@+id/textView" />
 
 
         <EditText
             android:id="@+id/et_cardnum"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@null"
             android:gravity="center_vertical"
             android:hint="请输入银行卡号"
             android:inputType="number"
-            android:paddingLeft="15dp"
-            android:textSize="18sp" />
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
@@ -54,11 +55,11 @@
 
         <TextView
             android:id="@+id/tv_bankname"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:paddingLeft="15dp"
-            android:textSize="18sp" />
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
@@ -82,11 +83,11 @@
 
         <TextView
             android:id="@+id/tv_cardtype"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:paddingLeft="15dp"
-            android:textSize="18sp" />
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
