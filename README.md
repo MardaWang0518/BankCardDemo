@@ -24,4 +24,6 @@
 
 如果对你有那么一丝的帮助，请不要吝啬。求star！求star！求star！求star！求star！
 
+If you like this library's design, feel it help to you, you can point the upper right corner "Star" support Thank you! ^ _ ^
+
 
