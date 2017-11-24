@@ -103,7 +103,7 @@
         android:id="@+id/tv_get"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:text="获取数据"
         android:textColor="#ffffff"
         android:textSize="14sp"
@@ -111,5 +111,14 @@
         android:paddingRight="20dp"
         android:background="@drawable/shape_btn"
         android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_extra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0033"
+        android:textSize="16sp"
+        android:text="ddd"
+        android:layout_marginTop="80dp"/>
 
 </LinearLayout>
