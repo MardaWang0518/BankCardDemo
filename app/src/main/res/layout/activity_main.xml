@@ -60,6 +60,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textColor="#333333"
+            android:hint="中国银行/建设银行"
             android:paddingLeft="10dp"
             android:textSize="16sp" />
 
@@ -89,6 +90,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textColor="#333333"
+            android:hint="储蓄卡/信用卡"
             android:paddingLeft="10dp"
             android:textSize="16sp" />
 
@@ -107,8 +109,8 @@
         android:text="获取数据"
         android:textColor="#ffffff"
         android:textSize="14sp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
         android:background="@drawable/shape_btn"
         android:layout_gravity="center_horizontal"/>
 
