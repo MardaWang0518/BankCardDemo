@@ -31,7 +31,7 @@
             android:hint="请输入银行卡号"
             android:inputType="number"
             android:paddingLeft="10dp"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
     </LinearLayout>
 
@@ -62,7 +62,7 @@
             android:textColor="#333333"
             android:hint="中国银行/建设银行"
             android:paddingLeft="10dp"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
     </LinearLayout>
 
@@ -92,7 +92,7 @@
             android:textColor="#333333"
             android:hint="储蓄卡/信用卡"
             android:paddingLeft="10dp"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
     </LinearLayout>
 
@@ -119,7 +119,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#ff0033"
-        android:textSize="16sp"
+        android:textSize="15sp"
         android:text="ddd"
         android:layout_marginTop="80dp"/>
 
