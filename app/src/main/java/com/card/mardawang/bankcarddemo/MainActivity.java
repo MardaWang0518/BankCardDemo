@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     tv_bankname.setText(bankinfobean.getBankName());
                     tv_cardtype.setText(bankinfobean.getCardType());
                 } else {
-                    Toast.makeText(MainActivity.this, "卡号 "+cardnum+" is NOT valid", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "卡号 "+cardnum+" 不合法,请重新输入", Toast.LENGTH_LONG).show();
                 }
             }
         });
