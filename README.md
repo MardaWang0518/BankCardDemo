@@ -22,7 +22,7 @@
 另外assets文件夹下有  识别银行卡的源文件，需要获取银行卡其他信息的朋友或者IOS开发者朋友都可以使用，
 我想一定会有所帮助的
 
-如果对你有那么一丝的帮助，请不要吝啬。求star！求star！求star！求star！求star！
+如果对你有那么一丝的帮助，请不要吝啬。求star！
 
 If you like this library's design, feel it help to you, you can point the upper right corner "Star" support Thank you! ^ _ ^
 
