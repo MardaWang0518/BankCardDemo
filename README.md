@@ -24,7 +24,7 @@
 另外assets文件夹下  添加了源文件和识别银行卡的python文件以及ios开发所需要的代码验证，需要获取银行卡其他信息的朋友都可以使用，
 我想一定会有所帮助的
 
-如果对你有那么一丝的帮助，请不要吝啬。求star！
+如果对你有那帮助，请不要吝啬。求star！
 
 If you like this library's design, feel it help to you, you can point the upper right corner "Star" support Thank you! ^ _ ^
 
